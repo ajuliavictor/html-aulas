@@ -1,5 +1,51 @@
 h1 {
-    color :blueviolet;
+    color: blueviolet;
     background: burlywood;
-    font-weight:lighter;
+    font-weight: lighter;
+}
+
+p {
+    color: red;
+}
+
+p#paragrafo-1 {
+    color: black;
+    background: blanchedalmond;
+}
+
+p#paragrafo-2 {
+    color: purple;
+    background: silver;
+}
+
+p#paragrafo-3 {
+    color: greenyellow;
+    background: rgb(205, 218, 255);
+}
+
+#Compras,
+#Bebidas {
+    float: left;
+}
+
+ul {
+    margin-left: 100px;
+    /* width: 80px; */
+    font-size: 30px;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+    border-bottom: 5px dotted grey;
+}
+
+ul#lista-compras .item-lista-compra {
+    color: mediumvioletred;
+    background: silver;
+}
+
+ul#lista-bebidas .item-lista-bebidas {
+    color: rgb(255, 196, 0);
+    background: tan;
 }
